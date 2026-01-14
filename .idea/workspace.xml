@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clients/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httpx_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +41,12 @@
     &quot;Python.grpc_course_server.executor&quot;: &quot;Run&quot;,
     &quot;Python.grpc_server.executor&quot;: &quot;Run&quot;,
     &quot;Python.httpx_authentication.executor&quot;: &quot;Run&quot;,
+    &quot;Python.httpx_client.executor&quot;: &quot;Run&quot;,
     &quot;Python.httpx_delete_user.executor&quot;: &quot;Run&quot;,
     &quot;Python.httpx_example.executor&quot;: &quot;Run&quot;,
     &quot;Python.httpx_get_user.executor&quot;: &quot;Run&quot;,
     &quot;Python.httpx_get_user_me.executor&quot;: &quot;Run&quot;,
+    &quot;Python.httpx_update_user.executor&quot;: &quot;Run&quot;,
     &quot;Python.tcp_client.executor&quot;: &quot;Run&quot;,
     &quot;Python.tcp_server.executor&quot;: &quot;Run&quot;,
     &quot;Python.tcp_users_client.executor&quot;: &quot;Run&quot;,
@@ -67,8 +74,8 @@
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.httpx_delete_user">
-    <configuration name="httpx_authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.httpx_client">
+    <configuration name="httpx_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_authentication.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,29 +113,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_delete_user.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="httpx_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotests-api" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,13 +167,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="httpx_update_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autotests-api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_update_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.httpx_client" />
+        <item itemvalue="Python.httpx_update_user" />
         <item itemvalue="Python.httpx_delete_user" />
         <item itemvalue="Python.httpx_get_user" />
         <item itemvalue="Python.httpx_get_user_me" />
-        <item itemvalue="Python.httpx_authentication" />
-        <item itemvalue="Python.httpx_example" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +230,8 @@
       <workItem from="1767649597373" duration="7232000" />
       <workItem from="1767698765229" duration="10982000" />
       <workItem from="1767910249331" duration="10370000" />
-      <workItem from="1768120876719" duration="341000" />
+      <workItem from="1768120876719" duration="9159000" />
+      <workItem from="1768377913615" duration="2756000" />
     </task>
     <servers />
   </component>
@@ -241,7 +249,9 @@
     <SUITE FILE_PATH="coverage/autotests_api$httpx_authentication.coverage" NAME="httpx_authentication Coverage Results" MODIFIED="1767973573156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$tcp_server.coverage" NAME="tcp_server Coverage Results" MODIFIED="1767667403508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$httpx_example.coverage" NAME="httpx_example Coverage Results" MODIFIED="1767738870583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autotests_api$httpx_delete_user.coverage" NAME="httpx_delete_user Coverage Results" MODIFIED="1767977887768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotests_api$httpx_update_user.coverage" NAME="httpx_update_user Coverage Results" MODIFIED="1768121360269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotests_api$httpx_delete_user.coverage" NAME="httpx_delete_user Coverage Results" MODIFIED="1768121211883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotests_api$httpx_client.coverage" NAME="httpx_client Coverage Results" MODIFIED="1768142247901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$tcp_users_client.coverage" NAME="tcp_users_client Coverage Results" MODIFIED="1767720090979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$httpx_get_user_me.coverage" NAME="httpx_get_user_me Coverage Results" MODIFIED="1767975409772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$grpc_server.coverage" NAME="grpc_server Coverage Results" MODIFIED="1765807130031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
