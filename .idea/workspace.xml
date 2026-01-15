@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_create_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,8 +230,17 @@
       <workItem from="1767698765229" duration="10982000" />
       <workItem from="1767910249331" duration="10370000" />
       <workItem from="1768120876719" duration="9159000" />
-      <workItem from="1768377913615" duration="13647000" />
+      <workItem from="1768377913615" duration="17533000" />
     </task>
+    <task id="LOCAL-00001" summary="Практикуемся в реализации API клиентов">
+      <option name="closed" value="true" />
+      <created>1768515935650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768515935650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +256,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Практикуемся в реализации API клиентов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практикуемся в реализации API клиентов" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_api$websocket_users_client.coverage" NAME="websocket_users_client Coverage Results" MODIFIED="1767666166421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
