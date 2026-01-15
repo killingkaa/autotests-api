@@ -29,11 +29,12 @@ class UpdateCourseRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление курса.
     """
-    title: str
-    maxScore: int
-    minScore: int
-    description: str
-    estimatedTime: str
+    title: str | None
+    maxScore: int | None
+    minScore: int | None
+    minScore: int | None
+    description: str | None
+    estimatedTime: str | None
 
 
 class CoursesClient(APIClient):
