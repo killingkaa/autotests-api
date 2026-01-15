@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +228,7 @@
       <workItem from="1767698765229" duration="10982000" />
       <workItem from="1767910249331" duration="10370000" />
       <workItem from="1768120876719" duration="9159000" />
-      <workItem from="1768377913615" duration="17533000" />
+      <workItem from="1768377913615" duration="17878000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в реализации API клиентов">
       <option name="closed" value="true" />

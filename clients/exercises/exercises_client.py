@@ -54,8 +54,8 @@ class ExercisesClient(APIClient):
         """
         Метод создания упраднения.
 
-        :param request: Словарь с title, maxScore, minScore, description, estimatedTime,
-        previewFileId, createdByUserId.
+        :param request: Словарь с title, courseId, maxScore, minScore, orderIndex,
+         description, estimatedTime
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/exercises", json=request)
@@ -74,7 +74,7 @@ class ExercisesClient(APIClient):
         Метод обновления упражнения.
 
         :param exercise_id: Идентификатор упражнения.
-        :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
+        :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(f"/api/v1/exercises/{exercise_id}", json=request)
