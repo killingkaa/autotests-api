@@ -39,9 +39,9 @@ class FileSchema(BaseModel):
 class UserSchema(BaseModel):
     id: str
     email: EmailStr
-    lastName: str = Field(alias="lastName")
-    firstName: str = Field(alias="firstName")
-    middleName: str = Field(alias="middleName")
+    last_name: str = Field(alias="lastName")
+    first_name: str = Field(alias="firstName")
+    middle_name: str = Field(alias="middleName")
 
     @computed_field
     def username(self) -> str:
