@@ -2,9 +2,6 @@ import time
 from faker import Faker
 
 
-def get_random_email() -> str:
-    return f"test.{time.time()}@example.com"
-
 class Fake:
     """
     Класс для генерации случайных тестовых данных с использованием библиотеки Faker.

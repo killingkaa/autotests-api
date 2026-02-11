@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="Знакомство с Pydantic">
-      <change afterPath="$PROJECT_DIR$/faker_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_client_create_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_client_create_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_client_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/files/files_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/users/users_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpx_create_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_create_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpx_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_create_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpx_delete_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_delete_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpx_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpx_update_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_update_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
-    </list>
+    <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="Знакомство с Pydantic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +243,7 @@
       <workItem from="1767910249331" duration="10370000" />
       <workItem from="1768120876719" duration="9159000" />
       <workItem from="1768377913615" duration="38481000" />
-      <workItem from="1768653158393" duration="86633000" />
+      <workItem from="1768653158393" duration="86992000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в реализации API клиентов">
       <option name="closed" value="true" />
@@ -320,7 +302,7 @@
     <SUITE FILE_PATH="coverage/autotests_api$httpx_get_user_me.coverage" NAME="httpx_get_user_me Coverage Results" MODIFIED="1767975409772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$courses_schema.coverage" NAME="courses_schema Coverage Results" MODIFIED="1770152530572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients/courses" />
     <SUITE FILE_PATH="coverage/autotests_api$grpc_server.coverage" NAME="grpc_server Coverage Results" MODIFIED="1765807130031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autotests_api$api_client_create_course.coverage" NAME="api_client_create_course Coverage Results" MODIFIED="1770845973137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotests_api$api_client_create_course.coverage" NAME="api_client_create_course Coverage Results" MODIFIED="1770846047564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$tcp_users_server.coverage" NAME="tcp_users_server Coverage Results" MODIFIED="1767720006561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$files_schema.coverage" NAME="files_schema Coverage Results" MODIFIED="1770762313261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients/files" />
     <SUITE FILE_PATH="coverage/autotests_api$httpx_get_user.coverage" NAME="httpx_get_user Coverage Results" MODIFIED="1767977173574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field, ConfigDict
+from tools.fakers import get_random_email
 
 
 class ExerciseSchema(BaseModel):
@@ -29,7 +30,7 @@ class CreateExerciseRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    title: str
+    title: str = Field(default_factory=fake.sentence)
     course_id: str = Field(alias="courseId")
     max_score: int = Field(alias="maxScore")
     min_score: int = Field(alias="minScore")
