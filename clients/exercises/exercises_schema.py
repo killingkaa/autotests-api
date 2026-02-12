@@ -46,11 +46,11 @@ class UpdateExerciseRequestSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     title: str | None
-    maxScore: int | None = Field(alias="maxScore")
-    min_score: int | None = Field(alias="minScore")
-    order_index: int | None = Field(alias="orderIndex")
-    description: str | None
-    estimated_time: str | None = Field(alias="estimatedTime")
+    maxScore: int | None = Field(alias="maxScore", default_factory=fake.max_score)
+    min_score: int | None = Field(alias="minScore", default_factory=fake.min_score)
+    order_index: int | None = Field(alias="orderIndex", default_factory=fake.integer)
+    description: str | None = Field(default_factory=fake.text)
+    estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 
 class GetExercisesResponseSchema(BaseModel):
