@@ -21,7 +21,7 @@ def test_login():
 
     login_request = LoginRequestSchema(
         email=create_user_request.email,
-        password=create_user_request.password
+        password=create_user_request.password 
     )
     login_response = authentication_client.login_api(login_request)
     login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
