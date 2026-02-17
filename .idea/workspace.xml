@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="Написание API автотестов используя Pytest. Практика написания API автотестов">
-      <change afterPath="$PROJECT_DIR$/clients/users/test_pytest_skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/test_pytest_skipif.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/test_pytest_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_u sefixtures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/test_pytest_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pytest_skip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/test_pytest_skipif.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pytest_skipif.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/test_pytest_xfail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pytest_xfail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/DjBOB/PycharmProjects/autotests-api/clients/authentication",
+    "last_opened_file_path": "C:/Users/DjBOB/PycharmProjects/autotests-api/tests/accounts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,16 +94,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\tests\accounts" />
+      <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\tests\users" />
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\clients\authentication" />
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\testdata\files" />
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\tests" />
+      <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\tests\users" />
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\clients" />
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pytest_skip.test_feature_in_development">
+  <component name="RunManager">
     <configuration name="api_client_get_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -162,7 +170,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_pytest_skip.test_feature_in_development" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_pytest_skip.test_feature_in_development" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +182,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pytest_skip.test_feature_in_development&quot;" />
+      <option name="_new_target" value="&quot;tests.test_pytest_skip.test_feature_in_development&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -196,7 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_pytest_skip.test_feature_in_development" />
+        <item itemvalue="Python tests.Python tests for tests.test_pytest_skip.test_feature_in_development" />
         <item itemvalue="Python tests.Python tests for test_authentication.test_login" />
         <item itemvalue="Python tests.Python tests in test_authentication.py" />
         <item itemvalue="Python.api_client_get_user" />
@@ -237,7 +245,7 @@
       <workItem from="1768120876719" duration="9159000" />
       <workItem from="1768377913615" duration="38481000" />
       <workItem from="1768653158393" duration="129410000" />
-      <workItem from="1771152100822" duration="13792000" />
+      <workItem from="1771152100822" duration="29243000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в реализации API клиентов">
       <option name="closed" value="true" />
