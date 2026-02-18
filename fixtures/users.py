@@ -30,11 +30,6 @@ class UserFixture(BaseModel):
 
 
 @pytest.fixture
-def authentication_client() -> AuthenticationClient:
-    return get_authentication_client()
-
-
-@pytest.fixture
 def public_users_client() -> PublicUsersClient:
     return get_public_users_client()
 
