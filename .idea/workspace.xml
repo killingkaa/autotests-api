@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="Написание API автотестов используя Pytest. Практика написания API автотестов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get_user_me.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_user_me.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_parametrization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_parametrization.test_identifiers">
+  <component name="RunManager" selected="Python tests.Python tests for test_users.test_create_user">
     <configuration name="Python tests for test_get_user_me.test_get_user_me" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -190,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_users.test_create_user" />
         <item itemvalue="Python tests.Python tests for test_parametrization.test_identifiers" />
         <item itemvalue="Python tests.Python tests for test_get_user_me.test_get_user_me" />
         <item itemvalue="Python tests.Python tests for test_users.test_get_user_me" />
         <item itemvalue="Python tests.Python tests in test_get_user_me.py" />
-        <item itemvalue="Python tests.Python tests for test_users.test_create_user" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +231,7 @@
       <workItem from="1768377913615" duration="38481000" />
       <workItem from="1768653158393" duration="129410000" />
       <workItem from="1771152100822" duration="48232000" />
-      <workItem from="1771492913235" duration="5715000" />
+      <workItem from="1771492913235" duration="7722000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в реализации API клиентов">
       <option name="closed" value="true" />
@@ -301,7 +300,7 @@
     <SUITE FILE_PATH="coverage/autotests_api$httpx_get_user_me.coverage" NAME="httpx_get_user_me Coverage Results" MODIFIED="1767975409772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$courses_schema.coverage" NAME="courses_schema Coverage Results" MODIFIED="1770152530572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients/courses" />
     <SUITE FILE_PATH="coverage/autotests_api$grpc_server.coverage" NAME="grpc_server Coverage Results" MODIFIED="1765807130031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autotests_api$.coverage" NAME=" Coverage Results" MODIFIED="1771513452083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/autotests_api$.coverage" NAME=" Coverage Results" MODIFIED="1771529986074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/autotests_api$api_client_create_course.coverage" NAME="api_client_create_course Coverage Results" MODIFIED="1770846047564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$tcp_users_server.coverage" NAME="tcp_users_server Coverage Results" MODIFIED="1767720006561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_api$files_schema.coverage" NAME="files_schema Coverage Results" MODIFIED="1770762313261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clients/files" />
