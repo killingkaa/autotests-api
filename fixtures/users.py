@@ -11,7 +11,6 @@ from clients.users.users_schema import CreateUserRequestSchema, CreateUserRespon
 class UserFixture(BaseModel):
     request: CreateUserRequestSchema
     response: CreateUserResponseSchema
-    authentication_user: AuthenticationUserSchema
 
     @property
     def email(self) -> EmailStr:
@@ -24,8 +23,8 @@ class UserFixture(BaseModel):
     @property
     def authentication_user(self) -> AuthenticationUserSchema:
         return AuthenticationUserSchema(
-            email=self.request.email,
-            password=self.request.password
+            email=self.email,
+            password=self.password
         )
 
 
@@ -38,12 +37,7 @@ def public_users_client() -> PublicUsersClient:
 def function_user(public_users_client: PublicUsersClient) -> UserFixture:
     request = CreateUserRequestSchema()
     response = public_users_client.create_user(request)
-    return UserFixture(request=request,
-                       response=response,
-                       authentication_user=AuthenticationUserSchema(email=request.email,
-                                                                    password=request.password
-                                                                    )
-                       )
+    return UserFixture(request=request, response=response)
 
 
 @pytest.fixture
