@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e69160-98b4-451e-accb-e0fe6a1798be" name="Changes" comment="Написание API автотестов используя Pytest. Практика написания API автотестов">
-      <change afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pytest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pytest/test_reruns.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/private_http_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_fixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get_user_me.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_parametrization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_skip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skipif.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_skipif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_pytest_xfail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_xfail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_u sefixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_usefixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/users/test_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +108,7 @@
       <recent name="C:\Users\DjBOB\PycharmProjects\autotests-api\clients" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for tests.pytest.test_parametrization.test_identifiers">
     <configuration name="Python tests for tests.pytest.test_parametrization.test_identifiers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -266,7 +249,7 @@
       <workItem from="1779698973837" duration="494000" />
       <workItem from="1779880443355" duration="593000" />
       <workItem from="1783568453371" duration="2323000" />
-      <workItem from="1783674126222" duration="3281000" />
+      <workItem from="1783674126222" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в реализации API клиентов">
       <option name="closed" value="true" />
